@@ -5,9 +5,11 @@ using Compose
 using Gadfly
 
 export xchart, 
-       priceplot
+       priceplot,
+       returnsplot
 
 include("xchart.jl")
 include("priceplot.jl")
+include("returnsplot.jl")
 
 end
