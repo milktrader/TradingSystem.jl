@@ -1,7 +1,7 @@
 module Backtest
 
-export foo
+export xbacktest
 
-include("foo.jl")
+include("xbacktest.jl")
 
 end
